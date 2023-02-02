@@ -8,7 +8,7 @@ namespace Weather_Finder
     class Weather
     {
         public dynamic weatherData;
-        private string weatherApiKey = "4768fd52a4464508b26173915230102"; //Weatherapi.com API Key
+        private string weatherApiKey = ""; //Weatherapi.com API Key
 
         public string city { get; set; }
         public string country { get; set; }
