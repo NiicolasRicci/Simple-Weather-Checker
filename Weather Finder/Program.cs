@@ -10,17 +10,17 @@ namespace Weather_Finder
         public dynamic weatherData;
         private string weatherApiKey = "4768fd52a4464508b26173915230102"; //Weatherapi.com API Key
 
-        public string city { get; set; }
-        public string country { get; set; }
-        public int temp_c { get; set; }
-        public int temp_f { get; set; }
-        public int feelslike_c { get; set; }
-        public int feelslike_f { get; set; }
-        public decimal precip_mm { get; set; }
-        public decimal precip_in { get; set; }
-        public int humidity { get; set; }
-        public decimal wind_mph { get; set; }
-        public decimal wind_kph { get; set; }
+        public string city { get; private set; }
+        public string country { get; private set; }
+        public int temp_c { get; private set; }
+        public int temp_f { get; private set; }
+        public int feelslike_c { get; private set; }
+        public int feelslike_f { get; private set; }
+        public decimal precip_mm { get; private set; }
+        public decimal precip_in { get; private set; }
+        public int humidity { get; private set; }
+        public decimal wind_mph { get; private set; }
+        public decimal wind_kph { get; private set; }
 
         public void cityInfo()
         {
